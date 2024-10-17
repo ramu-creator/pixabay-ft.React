@@ -27,7 +27,7 @@ function SearchImages(){
                     type="text"
                     value={search}
                     onChange={(event) => setsearch(event.target.value)}
-                    placeholder="Search products"
+                    placeholder="Search images"
 
                 />       
                 <div id="pix-container" >
