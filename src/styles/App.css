@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d8ffff;
+}
+
+
+#container{
+    display: grid;
+
+}
+#search{
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+    margin:0 26%;
+    margin-top: 50px;
+    border-radius: 10px;
+    /* background-color:#baebea; */
+    color: #000;      
+
+}
+#pix-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8%;
+    padding: 20px;
+    gap: 70px;
+    width: 85%;
+    /* border: solid 5px red; */
+    background-color: #ffffff;
+
+}
+#pix-s{
+    width: 300px;
+}
+#pix-s1{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#pix-s2{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 2px; */
+    /* width: 400px; */
+    padding: 5px;
+}
+.fa-regular{
+    font-size: 20px;
+}
+
+.fa-regular:hover{
+    background-color: red;
+
+}
+
+
+/* Nav-Bar */
+
+#nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 5px; */
+    /* background-color:#baebea; */
+    background-image: url("https://cdn.pixabay.com/index/2024/10/10/04-05-50-60_640.jpg");
+    color: #fff;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+#nav-cont{
+    display: flex;
+    position: absolute;
+    right: 100px;
+}
+#nav-cont li{
+    list-style: none;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 5px; */
+    /* background-color:#baebea; */
+    background-image: url("https://cdn.pixabay.com/index/2024/10/10/04-05-50-60_640.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80px;
+    color: #fff;
+    position: relative;
+  }
+  .fa-angles-up{
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 50px bold;
+  }
+
+  /* About Image */
+
+#ab-img-container{
+    width: 50%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px;
+    border: solid 1px;
+
+}
+
+#ab-image{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+#ab-img-content{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+}
